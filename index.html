@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>MediaMonks</title>
+</head>
+
+<body>
+    <div class="background" id="background">
+        <div class="container">
+            <div class="navigation-container">
+                <div class="button" onclick="previousSlide()">
+                    <p class="navigation-button left">&LeftAngleBracket;</p>
+                </div>
+                <div class="button" onclick="nextSlide()">
+                    <p class="navigation-button right">&RightAngleBracket;</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div id="top-left" class="text"></div>
+            <div id="center-right" class="text"></div>
+            <div id="center-left" class="text"></div>
+        </div>
+        <div class="slide-selector">
+            <span id="selector-0" onclick="showSlide(0);" class="selector selected">&NonBreakingSpace;</span>
+            <span id="selector-1" onclick="showSlide(1);" class="selector">1</span>
+            <span id="selector-2" onclick="showSlide(2);" class="selector">2</span>
+            <span id="selector-3" onclick="showSlide(3);" class="selector">3</span>
+            <span id="selector-4" onclick="showSlide(4);" class="selector">4</span>
+            <span id="selector-5" onclick="showSlide(5);" class="selector">5</span>
+            <span id="selector-6" onclick="showSlide(6);" class="selector">6</span>
+            <span id="selector-7" onclick="showSlide(7);" class="selector">7</span>
+            <span id="selector-8" onclick="showSlide(8);" class="selector">8</span>
+            <span id="selector-9" onclick="showSlide(9);" class="selector">&NonBreakingSpace;</span>
+        </div>
+        <div class="logo">
+            <img src="./../frontend-test/assets/images/logo.svg" alt="MediaMonks">
+        </div>
+    </div>
+    <script type="text/javascript" src="./assets/js/scripts.js"></script>
+</body>
+
+</html>

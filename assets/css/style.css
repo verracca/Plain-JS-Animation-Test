@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "klavika-Bold";
+    src: url(../font/klavika-bold-webfont.woff);
+}
+
+@font-face {
+    font-family: "klavika-Light";
+    src: url(../font/klavika-light-webfont.woff);
+}
+
+@font-face {
+    font-family: "klavika-Medium";
+    src: url(../font/klavika-medium-webfont.woff);
+}
+
+@font-face {
+    font-family: "klavika-Regular";
+    src: url(../font/klavika-regular-webfont.woff)
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    text-align: center;
+}
+  
+.background {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    height: 100%;
+    background-position: 0% 0%;
+    border-style: none;
+
+    /* animation */
+    transition-duration: 800ms;
+    transition-timing-function: ease-in-out;
+}
+
+.button {
+    background-color: transparent;
+    border-color: transparent;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
+
+.container {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+}
+
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-button {
+    font-family: "klavika-Light";
+    font-size: 80px;
+    color: white;
+    cursor: pointer;
+}
+
+.text {
+    font-family: "klavika-Light";
+    font-size: 40px;
+    color: white;
+    text-decoration-line: underline;
+    width: 300px;
+    word-break: normal;
+    text-align: left;
+}
+
+#center-right {
+    margin-top: 100px;
+    text-align: right;
+    position: absolute;
+    right: 1.7em;
+    top: 30%;
+}
+
+#center-left {
+    margin-top: 100px;
+    position: absolute;
+    left: 1.7em;
+    top: 30%;
+}
+
+#top-left {
+    position: absolute;
+    left: 1.7em;
+    top: 1em;
+}
+
+.slide-selector {
+    position: absolute;
+    left: 1.7em;
+    bottom: 20px;
+    font-family: "klavika-Regular";
+    font-size: 12px;
+    color: white;
+    border-style: dotted;
+    border-width: 1px;
+    padding: 3px;
+}
+
+.selector {
+    padding: 3px;
+    cursor: pointer;
+    border-style: hidden dotted hidden hidden;
+    border-width: 1px;
+}
+
+.selected {
+    background-color: white;
+}
+
+.logo {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    filter: invert(1);
+}
